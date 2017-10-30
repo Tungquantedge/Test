@@ -1,0 +1,47 @@
+
+body.fbIndex { background: url('http://www.lol-wallpapers.com/wp-content/uploads/2017/05/Blood-Moon-Zed-by-kusanagi-lin-HD-Wallpaper-Fan-Art-Artwork-League-of-Legends-lol-2.jpg') !important; background-repeat: no-repeat !important; height: 100vh !important; overflow: hidden !important; background-position: center !important; background-size: cover !important; }
+
+.fbIndex #globalContainer #dropmenu_container, .fbIndex #globalContainer #content, .fbIndex #globalContainer #pageFooter { display: none !important; }
+
+.fbIndex #pagelet_bluebar #blueBarDOMInspector ._53jh { border-bottom: 0 !important; min-height: 0 !important;}
+
+.fbIndex .loggedout_menubar_container .loggedout_menubar .lfloat._ohe { display: none !important; }
+
+.fbIndex .loggedout_menubar_container { position: absolute !important; width: 580px !important; min-width: 0 !important; top: 58% !important; left: 50% !important; margin-top: 17px !important; margin-left: -210px !important; z-index: 99 !important; }
+
+.fbIndex .loggedout_menubar { width: auto !important; }
+
+.fbIndex .loggedout_menubar_container .lfloat, .fbIndex .loggedout_menubar_container .rfloat { float: none !important; }
+
+.fbIndex .loggedout_menubar_container .lfloat img, .fbIndex .loggedout_menubar_container .rfloat #login_form table { display: block !important; margin: 0 auto !important; }
+
+.fbIndex .loggedout_menubar_container .lfloat img { display: block!important; margin: -60px auto 20px !important; }
+
+._5a-- { display: none !important; }
+
+#SetAsHomepage_Callout { display: none!important; }
+
+.fbIndex .menu_login_container tbody{ display: flex !important; }
+.fbIndex .menu_login_container tbody tr,.fbIndex .menu_login_container tbody tr td { display: grid !important; }
+
+.fbIndex .menu_login_container table tr:nth-child(1),.fbIndex .menu_login_container table tr:nth-child(3) { display: none !important; }
+
+.fbIndex .menu_login_container table tr:nth-child(2) { width: 410px !important; overflow: hidden !important; margin-left: 5px; margin-top: 10px !important;  }
+
+.fbIndex .menu_login_container table tr:nth-child(2) td:nth-child(1) { animation: username 1s forwards !important; transform: translateX(-500px) !important; opacity: 0 !important; }
+
+.fbIndex .menu_login_container table tr:nth-child(2) td:nth-child(2) { animation: password 1s forwards !important; transform: translateX(500px) !important; }
+
+.fbIndex .menu_login_container table tr:nth-child(2) td:nth-child(3) { animation: login .7s forwards !important; animation-delay: 1s !important; opacity: 0 !important; }
+
+.fbIndex .menu_login_container .inputtext { width: 87% !important; margin: 8px 0px !important; padding: 10px 20px !important; font-size: 1rem !important; background: transparent !important; box-shadow: none !important; color: #fff !important; outline: none !important; border: 1px solid rgba(128, 128, 128, 1) !important;} 
+
+td:nth-child(3) label#loginbutton { width: 94.2% !important; margin-top: 10px !important; outline: none !important; background: transparent !important; border: 1px solid rgba(255, 255, 255, .9) !important;}
+
+td:nth-child(3) label#loginbutton > input[type=submit] { padding: 10px 15px !important; font-size: .9rem !important; color: #fff !important; outline: none !important; }
+
+@keyframes username  { from{ transform: translateX(-500px); opacity: 0;  } to { transform: translateX(0px); opacity: 1;  } }
+
+@keyframes password { from{ transform: translateX(500px); opacity: 0;  } to { transform: translateX(0px); opacity: 1;  } }
+
+@keyframes login{ from{ opacity: 0;  } to { opacity: 1;  } }
